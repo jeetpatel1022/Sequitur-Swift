@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		107DA6C31E68C663008F2BE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107DA6C21E68C663008F2BE6 /* main.swift */; };
-		107DA6CB1E68C66F008F2BE6 /* libSequitur-Swift.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 107DA6CA1E68C66F008F2BE6 /* libSequitur-Swift.dylib */; };
+		107DA6D31E68C755008F2BE6 /* libSequitur-Swift.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 107DA6D21E68C755008F2BE6 /* libSequitur-Swift.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		107DA6BD1E68C663008F2BE6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		107DA6BF1E68C663008F2BE6 /* Sequitur-Swift-Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sequitur-Swift-Example"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107DA6C21E68C663008F2BE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		107DA6CA1E68C66F008F2BE6 /* libSequitur-Swift.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSequitur-Swift.dylib"; path = "../Sequitur-Swift/build/Debug/libSequitur-Swift.dylib"; sourceTree = "<group>"; };
+		107DA6D21E68C755008F2BE6 /* libSequitur-Swift.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSequitur-Swift.dylib"; path = "../../../../Library/Developer/Xcode/DerivedData/Sequitur-eulitccifzhvhnfkmviyopfhhvxu/Build/Products/Debug/libSequitur-Swift.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107DA6CB1E68C66F008F2BE6 /* libSequitur-Swift.dylib in Frameworks */,
+				107DA6D31E68C755008F2BE6 /* libSequitur-Swift.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		107DA6C91E68C66F008F2BE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				107DA6CA1E68C66F008F2BE6 /* libSequitur-Swift.dylib */,
+				107DA6D21E68C755008F2BE6 /* libSequitur-Swift.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +231,7 @@
 		107DA6C71E68C663008F2BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = CPDEXJDESH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -240,6 +241,7 @@
 		107DA6C81E68C663008F2BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = CPDEXJDESH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -265,6 +267,7 @@
 				107DA6C81E68C663008F2BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Sequitur-Swift-Example/Sequitur-Swift-Example.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "container:Sequitur-Swift/Sequitur-Swift.xcodeproj">
-   </FileRef>
 </Workspace>
